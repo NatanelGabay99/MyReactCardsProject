@@ -129,8 +129,8 @@ export default function SignupForm({
         sm={6}
       />
       <Input
-        name="house number"
-        label="house number"
+        name="houseNumber"
+        label="housenumber"
         type="number"
         error={errors.houseNumber}
         onChange={onInputChange}
